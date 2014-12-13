@@ -30,8 +30,11 @@ img{max-width:100%;}
 /*end reset*/
 body {
 	font-family: 'Open Sans', sans-serif;
-	background:#fffff;
+	background:#f0f0f0;
 	font-size: 100%;
+}
+header {
+	background: #ffffff
 }
 /*start search*/
 .sb-search {
