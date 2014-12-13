@@ -80,7 +80,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  	<!-- start main_content -->
 	<div class="blog_left">
 				    <img class="blog_img" src="images/applepie.jpg" alt="">
-				    <h2 class="style">Banana Breakfast Cheesecake</h2>
+				    <h2 class="style">Classic American Pie</h2>
 				    <div class="extra"> 
 						by <span class="username">Amy's Healthy Baking</span> / 
 						<a href="#" class="comment_count">1 comments</a>
@@ -88,12 +88,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				    <h3>Time: ~35 Minutes / Servings: 1</h3>
 				    <h3 class="style">Ingredients</h3>
 				    <ul class="ingredients">
-				    	<li class="white_li">1 recipe <span>thin butter crust</span></li>
+				    	<li class="white_li">1 <span>thin butter crust</span></li>
 				    	<li class="reg_li">6-8 freshly picked firm and slightly tart <span>apples</span> </li>
-				    	<li class="white_li">granuated <span>sugar</span></li>
-				    	<li class="reg_li">ground <span>cinnamon</span></li>
-				    	<li class="white_li">3 tablespoons sifted all-purpose <span>flour</span></li>
-				    	<li class="reg_li">3 tablespoons<span>butter</span>, cut into small bits</li>
+				    	<li class="white_li">3 tablesppons <span> granulated sugar</span></li>
+				    	<li class="reg_li">1 tablespoon <span>ground cinnamon</span></li>
+				    	<li class="white_li">3 tablespoons <span>sifted all-purpose flour</span></li>
+				    	<li class="reg_li">3 tablespoons <span>butter</span>, cut into small bits</li>
 				    </ul>
 				    <h3 class="style">Directions</h3>
 					<p class="para">Prepare the pie dough, divide half and roll out each half no more than 1/4 inch thick. Line a 9-inch pie pan with one. Keep lined pan and top crust chilled.
@@ -157,12 +157,55 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</form>
 					  </div> 			    
 				</div>
-			
+<div class="sidebar">	
+		<h3>Categories</h3>
+		<ul class="s_nav">
+			<li><a href="sresults.html"><span>cookies</span><label>10</label><div class="clear"></div></a></li> 
+			<li><a href="sresults.html"><span>cakes</span><label>12</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>pastries</span><label>20</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>drinks</span><label>11</label><div class="clear"></div></a></li>
+		</ul>
+		<h3 class="blog_top">Tip of the Day</h3>
+		<div class="r_views">
+			<p>"Making a cake? Avoid using cold eggs or else the mixture won't emulsify properly."</p>
+			<a href="">more tips</a>
+			<div class="clear"></div>
+		</div>
+
+
+	</div>				
 				<div class="clear"></div>
 	<!-- end main_content -->
 </div>
+
+<script> 
+var windw = this;
+
+$.fn.followTo = function ( pos ) {
+    var $this = this,
+        $window = $(windw);
+    
+    $window.scroll(function(e){
+        if ($window.scrollTop() > pos) {
+            $this.css({
+                position: 'absolute',
+                top: pos
+            });
+        } else {
+            $this.css({
+                position: 'fixed',
+                top: 115
+            });
+        }
+    });
+};
+
+$('.sidebar').followTo(1500);
+
+</script>
 </div>
 </div>
+
 <!-- start footer -->
 <div class="footer">
 <div class="wrap">

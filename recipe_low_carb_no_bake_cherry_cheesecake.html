@@ -85,12 +85,12 @@
 				    <ul class="ingredients">
 				    	<li class="white_li">1 cup <span>graham cracker</span> (crumbs</li>
 				    	<li class="reg_li">1/4 cup <span>sugar</span></li>
-				    	<li class="white_li">6 tablespoons<span>butter</span>, melted</li>
-				    	<li class="reg_li">2 packages<span>cream cheese</span></li>
+				    	<li class="white_li">6 tablespoons <span>butter</span>, melted</li>
+				    	<li class="reg_li">2 packages <span>cream cheese</span></li>
 				    	<li class="white_li">1/4 cup <span>sugar</span></li>
 				    	<li class="reg_li">1 cup <span>sugar</span></li>
 				    	<li class="white_li">1 teaspoon <span>vanilla extract</span></li>
-				    	<li class="reg_li">2 tablespoons<span>cornstarch</span></li>
+				    	<li class="reg_li">2 tablespoons <span>cornstarch</span></li>
 				    	<li class="white_li">1 can <span>pitted tart cherries</span></li>
 				    	<li class="reg_li">1 teaspoon <span>lemon jiuce</span></li>
 				    </ul>
@@ -155,36 +155,51 @@
 					  </div> 			    
 				</div>
 <div class="sidebar">	
-		<h3>archives</h3>
+		<h3>Categories</h3>
 		<ul class="s_nav">
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>fruit shakes</span><label>20</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>wallness</span><label>11</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>cookies</span><label>10</label><div class="clear"></div></a></li> 
+			<li><a href="sresults.html"><span>cakes</span><label>12</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>pastries</span><label>20</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>drinks</span><label>11</label><div class="clear"></div></a></li>
 		</ul>
-		<h3 class="blog_top">recent views</h3>
+		<h3 class="blog_top">Tip of the Day</h3>
 		<div class="r_views">
-			<p>"But I must explain to you how denouncing pleasure and praising pain was born and I will give you a complete account of the system Lorem Ipsum is simply dummy text of the printing and typesetting industry."</p>
-			<a href="details.html">more views</a>
+			<p>"Making a cake? Avoid using cold eggs or else the mixture won't emulsify properly."</p>
+			<a href="">more tips</a>
 			<div class="clear"></div>
 		</div>
-		<h3>categories</h3>
-		<ul class="s_nav">
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>fruit shakes</span><label>20</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>wallness</span><label>11</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
-		</ul>
 
 
 	</div>				
 				<div class="clear"></div>
 	<!-- end main_content -->
 </div>
+
+<script> 
+var windw = this;
+
+$.fn.followTo = function ( pos ) {
+    var $this = this,
+        $window = $(windw);
+    
+    $window.scroll(function(e){
+        if ($window.scrollTop() > pos) {
+            $this.css({
+                position: 'absolute',
+                top: pos
+            });
+        } else {
+            $this.css({
+                position: 'fixed',
+                top: 115
+            });
+        }
+    });
+};
+
+$('.sidebar').followTo(1500);
+
+</script>
 </div>
 </div>
 <!-- start footer -->
@@ -215,25 +230,25 @@
 	    	<!-- start grids_of_4 -->
 			<div class="gridis_of_4">
 				<div class="grid1_of_4">
-					<h3>text edit</h3>
+					<h3>latest updates</h3>
 					<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
 				</div>
 				<div class="grid1_of_4">
-					<h3>twitter widget</h3>
+					<h3>twitter</h3>
 					<p><a href="#">@Contrarypopular</a> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give <a href="#">@accountofsystem</a> </p>
 					<p class="top">19 days ago</p>
 					<p class="top"><a href="#">@Contrarypopular</a> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give <a href="#">@accountofsystem</a> </p>
 					<p class="top">19 days ago</p>
 				</div>
 				<div class="grid1_of_4">
-					<h3>flickr widget</h3>
+					<h3>new recipes</h3>
 					<ul class="f_nav">
-						<li><a href="#"><img src="images/f_pic1.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/f_pic2.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/f_pic3.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/f_pic4.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/f_pic5.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/f_pic6.jpg" alt=""> </a></li>
+						<li><a href="recipe.html"><img src="images/f_pic1.jpg" alt=""> </a></li>
+						<li><a href="recipe.html"><img src="images/f_pic2.jpg" alt=""> </a></li>
+						<li><a href="recipe.html"><img src="images/f_pic3.jpg" alt=""> </a></li>
+						<li><a href="recipe.html"><img src="images/f_pic4.jpg" alt=""> </a></li>
+						<li><a href="recipe.html"><img src="images/f_pic5.jpg" alt=""> </a></li>
+						<li><a href="recipe.html"><img src="images/f_pic6.jpg" alt=""> </a></li>
 					</ul>
 				</div>
 				<div class="clear"></div>
