@@ -1785,13 +1785,12 @@ ul.comment-list .desc p{
 
 .profile_img {
 	float:left;
-	max-width: 14em;
+	max-width: 250px;
 }
 
 .fixed-size-square {
 	float:right;
-    width: 45em;
-    height: 12.1em;
+
     background: #ffffff;
     margin-left: 1em;
     border-radius: 5px;
