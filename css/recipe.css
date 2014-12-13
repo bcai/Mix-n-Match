@@ -317,7 +317,8 @@ span.next:hover {
 
 /* start sidebar */
 .sidebar{
-	float:left;
+	position: fixed;
+	right: 25px;
 	width: 16%;
 	background: #f53300;
 	padding: 30px;

@@ -150,36 +150,51 @@
 					  </div> 			    
 				</div>
 <div class="sidebar">	
-		<h3>archives</h3>
+		<h3>Categories</h3>
 		<ul class="s_nav">
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>fruit shakes</span><label>20</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>wallness</span><label>11</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>cookies</span><label>10</label><div class="clear"></div></a></li> 
+			<li><a href="sresults.html"><span>cakes</span><label>12</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>pastries</span><label>20</label><div class="clear"></div></a></li>
+			<li><a href="sresults.html"><span>drinks</span><label>11</label><div class="clear"></div></a></li>
 		</ul>
-		<h3 class="blog_top">recent views</h3>
+		<h3 class="blog_top">Tip of the Day</h3>
 		<div class="r_views">
-			<p>"But I must explain to you how denouncing pleasure and praising pain was born and I will give you a complete account of the system Lorem Ipsum is simply dummy text of the printing and typesetting industry."</p>
-			<a href="details.html">more views</a>
+			<p>"Making a cake? Avoid using cold eggs or else the mixture won't emulsify properly."</p>
+			<a href="">more tips</a>
 			<div class="clear"></div>
 		</div>
-		<h3>categories</h3>
-		<ul class="s_nav">
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>fruit shakes</span><label>20</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>wallness</span><label>11</label><div class="clear"></div></a></li>
-			<li><a href="#"><span>deserts</span><label>10</label><div class="clear"></div></a></li> 
-			<li><a href="#"><span>salad receipts</span><label>12</label><div class="clear"></div></a></li>
-		</ul>
 
 
 	</div>				
 				<div class="clear"></div>
 	<!-- end main_content -->
 </div>
+
+<script> 
+var windw = this;
+
+$.fn.followTo = function ( pos ) {
+    var $this = this,
+        $window = $(windw);
+    
+    $window.scroll(function(e){
+        if ($window.scrollTop() > pos) {
+            $this.css({
+                position: 'absolute',
+                top: pos
+            });
+        } else {
+            $this.css({
+                position: 'fixed',
+                top: 115
+            });
+        }
+    });
+};
+
+$('.sidebar').followTo(1800);
+
+</script>
 </div>
 </div>
 <!-- start footer -->
