@@ -1783,19 +1783,29 @@ ul.comment-list .desc p{
 	}
 }
 
-.profile_img {
-	float:left;
-	max-width: 250px;
-}
-
-.fixed-size-square {
-	float:right;
-
-    background: #ffffff;
-    margin-left: 1em;
+.about{
+	min-height: 250px;
+    margin-top: 15px;
     border-radius: 5px;
     padding:1em;
+
 }
+
+.about img {
+	max-width: 250px;
+	margin-left: 25px;
+}
+
+.about p {
+	float: left;
+}
+
+.descr {
+max-width: 900px;
+ float:left;
+}
+
+
 
 .fixed-size-square h3 {
 }
@@ -1804,5 +1814,3 @@ ul.comment-list .desc p{
 	font-size:1.4em;
 	font-style: bold;
 }
-
-fixed-size-square
