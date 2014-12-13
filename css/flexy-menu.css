@@ -137,41 +137,65 @@
 .flexy-menu ul,.flexy-menu ul li ul,.flexy-menu.vertical ul,.flexy-menu.vertical ul li ul{width:100%;left:0;border-left:0;position:static;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
 .flexy-menu ul li{border-left:0;border-right:0}.flexy-menu ul li a,.flexy-menu.vertical ul li a{padding-top:10px;padding-bottom:10px}.flexy-menu ul>li>a{padding-left:40px!important}
 .flexy-menu>li .arrow{top:15px;right:25px;font-size:17px}.flexy-menu ul>li .arrow{display:none}}
-.icon1{
-	background: url('../images/down_arrow.png') no-repeat 0px 0px;
+.discover{
+	background: url('../images/discover-orange.png') no-repeat 0px 0px;
 	width: 16px;
 	height: 16px;
 	margin: 0 auto;
 }
-.icon2{
-	background: url('../images/blog-icon2-grey.png') no-repeat 0px 0px;
+.discover_g{
+	background: url('../images/discover-grey.png') no-repeat 0px 0px;
 	width: 16px;
 	height: 16px;
 	margin: 0 auto;
 }
-.icon3{
-	background:none;
+.inbox{
+	background: url('../images/inbox-orange.png') no-repeat 0px 0px;
 	width: 16px;
 	height: 16px;
 	margin: 0 auto;
 }
-.icon4{
-	background: url('../images/blog-icon4.png') no-repeat 0px 0px;
+.inbox_g{
+	background: url('../images/inbox-grey.png') no-repeat 0px 0px;
 	width: 16px;
 	height: 16px;
 	margin: 0 auto;
 }
-.icon4_g{
-	background: url('../images/blog-icon4-grey.png') no-repeat 0px 0px;
+.add-new{
+	background: url('../images/plus-orange.png') no-repeat 0px 0px;
 	width: 16px;
 	height: 16px;
 	margin: 0 auto;
 }
-.orange li:hover>a>.icon2{
-	background: url('../images/blog-icon2.png') no-repeat 0px 0px;
+.add-new_g{
+	background: url('../images/plus-grey.png') no-repeat 0px 0px;
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
 }
-.orange li:hover>a>.icon4{
-	background: url('../images/blog-icon4.png') no-repeat 0px 0px;
+.person{
+	background: url('../images/pofile-orange.png') no-repeat 0px 0px;
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+}
+.person_g{
+	background: url('../images/profile-grey.png') no-repeat 0px 0px;
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+}
+.orange li:hover>a>.discover_g{
+	background: url('../images/discover-orange.png') no-repeat 0px 0px;
+}
+.orange li:hover>a>.inbox_g{
+	background: url('../images/inbox-orange.png') no-repeat 0px 0px;
+}
+.orange li:hover>a>.add-new_g{
+	background: url('../images/plus-orange.png') no-repeat 0px 0px;
+}
+.orange li:hover>a>.person_g{
+	background: url('../images/profile-orange.png') no-repeat 0px 0px;
 }
 .orange li a>.icon2_h{
 	background: url('../images/down_arrow_h.png') no-repeat 0px 0px;
