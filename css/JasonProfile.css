@@ -1793,7 +1793,8 @@ ul.comment-list .desc p{
 
 .about img {
 	max-width: 250px;
-	margin-left: 25px;
+	margin-right: 75px;
+	float: left;
 }
 
 .about p {
@@ -1801,7 +1802,7 @@ ul.comment-list .desc p{
 }
 
 .descr {
-max-width: 900px;
+max-width: 750px;
  float:left;
 }
 
