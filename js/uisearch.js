@@ -126,6 +126,8 @@
 		close : function() {
 			this.inputEl.blur();
 			classie.remove( this.el, 'sb-search-open' );
+			window.location.href = "sresults.html";
+
 		}
 	}
 
