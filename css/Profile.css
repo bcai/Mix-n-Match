@@ -793,7 +793,7 @@ h5.style{
 }
 /* start portfolio page */
 .portfoli{
-	padding: 4% 0;
+	margin: 4% 0;
 }
 
 .portfoli h1 {
@@ -1784,26 +1784,34 @@ ul.comment-list .desc p{
 }
 
 .about{
+	width: 90%;
 	min-height: 250px;
-    margin-top: 15px;
-    border-radius: 5px;
-    padding:1em;
+  margin-top: 15px;
+	border-radius: 5px;
+  margin:2.5em auto;
+  padding-top: 2em;
 
 }
 
 .about img {
 	max-width: 250px;
-	margin-right: 45px;
+	margin-left: 30px;
+	margin-right: 70px;
 	float: left;
+	border-radius: 200px;
 }
 
 .about p {
 	float: left;
+	width: 100%;
+	margin-right: 10%;
 }
 
 .descr {
-max-width: 750px;
+	width:inherit;
+	margin-top:20px;
  float:left;
+ max-width:60%;
 }
 
 

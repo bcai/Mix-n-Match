@@ -149,14 +149,14 @@ header {
 }
 /*start slider  */
 .slider{
-	margin-top:-5px;
 }
 .rslides {
   position: relative;
   list-style: none;
   overflow: hidden;
+  width: 70%;
   padding: 0;
-  margin: 0;
+	margin:0 auto;
 }
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -1452,6 +1452,10 @@ ul.comment-list .desc p{
 }
 /***** Media Quries *****/
 @media only screen and (max-width: 1366px) {
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
@@ -1474,6 +1478,10 @@ ul.comment-list .desc p{
 	
 }
 @media only screen and (max-width: 1280px) {
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
@@ -1493,6 +1501,10 @@ ul.comment-list .desc p{
 	}
 }
 @media only screen and (max-width: 1024px) {
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
@@ -1531,6 +1543,10 @@ ul.comment-list .desc p{
 	
 }
 @media only screen and (max-width: 800px) {
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
@@ -1568,6 +1584,10 @@ ul.comment-list .desc p{
 	}
 }
 @media only screen and (max-width: 768px) {
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
@@ -1640,6 +1660,10 @@ ul.comment-list .desc p{
 	}
 }
 @media only screen and (max-width: 640px){
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
@@ -1670,6 +1694,10 @@ ul.comment-list .desc p{
 	}
 }
 @media only screen and (max-width: 480px) {
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
@@ -1714,6 +1742,10 @@ ul.comment-list .desc p{
 	}
 }
 @media only screen and (max-width: 320px) {
+	.rslides{
+		width: 95%;
+		margin:0 auto;
+	}
 	.wrap{
 		width:95%;
 	}
